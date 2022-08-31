@@ -30,6 +30,8 @@ Le projet a été réalisé en totale autonomie.
 - Achat d'un nom de domaine
 - Création d'un compte administrateur pour le client
 - Transfert et mise en ligne du site sur Infomaniak - hébergeur du client (via FTP)
+- Mise en place d'une redirection automatique de l'ancien site vers la nouvelle adresse
+- Installation du SSL
 
 ## 💫 Live
 
