@@ -19,7 +19,7 @@ Le projet a été réalisé en totale autonomie.
 - Mise en place d'un agenda + système de réservation de cours (via options du thème et Woocommerce)
 - Paramétrage de Woocommerce: détails de la boutique, ajout produits, zones d'expédition, configuration des pages (panier, commande etc), paiements par Carte Bleu, Paypal, Google Pay ou Apple Pay (via Payment Plugins for Stripe WooCommerce)
 - Connexion (et décompte) des paiements via Woocommerce au compte Stripe officiel du client
-- Rédaction d'une doc à l'intention du client expliquant le processus de mise en ligne/modification d'un cours ([doc.pdf](https://github.com/idrissdiakite/ateliers-wordpress/tree/main/documentation/doc.pdf))
+- Rédaction d'un document à l'intention du client expliquant le processus de mise en ligne et la modification d'un cours ([doc.pdf](https://github.com/idrissdiakite/ateliers-wordpress/tree/main/documentation/doc.pdf))
 - Création et mise en place d'une interface pour acheter/envoyer une carte cadeau (via YITH WooCommerce Gift Cards)
 - Création et intégration d'un formulaire de contact + devis (via Contact Form 7)
 - Mise en place d'un feed Instagram dans le footer (via Smash Balloon Instagram Feed)
