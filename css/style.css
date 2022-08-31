@@ -1,0 +1,367 @@
+/* popup automatique */
+.alignnone {
+  margin: 0;
+}
+
+/* homepage newsletter */
+
+.sib_signup_box_inside_1 input {
+  color: #fff;
+  background-color: transparent;
+}
+
+.sib_signup_box_inside_1 button {
+  width: 100%;
+}
+
+.sib_signup_box_inside_1 .gt-inner,
+.sib_signup_box_inside_1 .gt-inner a {
+  color: #fff;
+}
+
+.sib_signup_box_inside_1 .gt-inner a:hover {
+  color: #eb692d;
+}
+
+/* page single cours breadcumb */
+.single-event .gt-breadcrumb li:nth-child(2) {
+  display: none;
+}
+
+/* page single cours related  */
+.gt-related-events {
+  margin-bottom: 10rem;
+}
+
+/* page calendrier boutons */
+.gt-calendar .fc-month-button,
+.gt-calendar .fc-today-button {
+  display: none;
+}
+
+/* page calendrier heure */
+.gt-calendar .fc-content .fc-time {
+  display: none;
+}
+
+/* page nos services - scale img */
+
+.services-img {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.services-img:hover {
+  -webkit-transform: scale(1.01); /* Safari et Chrome */
+  -moz-transform: scale(1.01); /* Firefox */
+  -ms-transform: scale(1.01); /* Internet Explorer 9 */
+  -o-transform: scale(1.01); /* Opera */
+  transform: scale(1.01);
+}
+
+/* billet page cours */
+.gt-event-section-tabs .gt-event-tabs {
+  margin: 0;
+}
+
+/* page bons cadeaux */
+.postid-3847 .gt-breadcrumb li:nth-child(2),
+.postid-3847 .gt-breadcrumb li:nth-child(3) {
+  display: none;
+}
+
+/* page bons cadeaux visuel gauche */
+.ywgc-form-preview-separator {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0;
+}
+
+.ywgc-form-preview-amount {
+  font-size: 1rem;
+  color: #eb692d;
+}
+
+/* page bons cadeaux droite */
+#product-3847 .product_title {
+  margin: -5px 0 1rem;
+  color: #eb692d;
+}
+
+#product-3847 .woocommerce-product-details__short-description p {
+  margin-bottom: -2rem;
+}
+
+.gift-cards-list h3 {
+  margin-bottom: 1.5rem;
+  margin-top: 4rem;
+}
+
+.gift-cards_form h3:nth-child(4) {
+  margin: 30px 0 10px;
+}
+
+.ywgc-predefined-amount-button.selected_button {
+  background-color: #eb692d;
+}
+
+.gift-cards-list button {
+  border: 1px solid #eb692d;
+  padding: 10px;
+}
+
+.gift-card-content-editor.step-content h5:nth-child(1) {
+  margin-top: 1rem;
+}
+
+.ywgc-sender-info-title {
+  margin-top: 1rem;
+}
+
+.gift_card_template_button {
+  margin-top: 2rem;
+}
+
+/* page devis */
+.gt-inner label {
+  display: block;
+  margin-bottom: -1.5rem;
+}
+
+.gt-inner label br:first-child {
+  margin-bottom: 0.5rem;
+}
+
+.wpcf7 .wpcf7-select option {
+  font-family: "Poppins";
+}
+
+/* woocommerce pagination */
+
+.woocommerce nav.woocommerce-pagination {
+  margin-top: 90px;
+  margin-bottom: 5px;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a {
+  background-color: transparent;
+  border: 1px solid #eb692d;
+  color: #eb692d;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #eb692d;
+  background-color: #eb692d;
+}
+
+@media screen and (max-width: 768px) {
+  .woocommerce nav.woocommerce-pagination {
+    margin-top: 25px;
+  }
+}
+
+/* woocommerce page produit */
+.woocommerce div.product {
+  padding: 0 15px;
+}
+
+.woocommerce div.product form.cart {
+  display: flex;
+  flex-direction: column;
+}
+
+.woocommerce .quantity .qty {
+  margin-right: 2rem;
+}
+
+.woocommerce .variations tr {
+  display: flex;
+  flex-direction: column;
+}
+
+.woocommerce table th,
+.woocommerce table td {
+  padding: 0;
+}
+
+/* woocommerce mon compte */
+
+.woocommerce .woocommerce-MyAccount-navigation ul li a,
+.woocommerce .woocommerce-MyAccount-navigation ul li a:visited {
+  padding: 5px 15px;
+  border: 1px solid #eb692d;
+  background-color: #eb692d;
+  border-radius: 4px;
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul li a:hover,
+.woocommerce .woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce .woocommerce-MyAccount-navigation ul li.is-active {
+  color: #eb692d;
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce .woocommerce-MyAccount-navigation ul li.is-active a:visited {
+  color: #eb692d;
+}
+
+.woocommerce-MyAccount-navigation-link--subscriptions,
+.woocommerce-MyAccount-navigation-link--downloads,
+.woocommerce-MyAccount-navigation-link--gift-cards {
+  display: none;
+}
+
+/* woocommerce page cart bouton appliquer */
+#pwgc-redeem-gift-card-number {
+  margin-bottom: 1em;
+}
+
+/* woocommerce page récapitulatif privacy policy */
+.woocommerce-privacy-policy-text {
+  display: none;
+}
+
+/* footer kayak */
+.footer-relative {
+  position: relative;
+}
+
+.kayak {
+  position: absolute;
+  left: 180px;
+  bottom: -30px;
+}
+
+/* page content mobile */
+
+@media screen and (max-width: 768px) {
+  .gt-page-content {
+    padding: 0 15px !important;
+  }
+}
+
+/* Espace vide mobile */
+
+@media screen and (max-width: 768px) {
+  .big-empty-space {
+    height: 75px !important;
+  }
+
+  .medium-empty-space {
+    height: 45px !important;
+  }
+
+  .small-empty-space {
+    height: 25px !important;
+  }
+}
+
+/* Avis page home mobile */
+
+@media screen and (max-width: 768px) {
+  .home .mega-testimonial-3 {
+    margin-bottom: 75px;
+  }
+
+  .home .review-full-text {
+    display: none;
+  }
+}
+
+/* bouton submit contact form 7 mobile */
+
+@media screen and (max-width: 768px) {
+  .wpcf7-submit {
+    margin-top: 1.5rem;
+  }
+}
+
+/* Footer mobile & tablette */
+
+@media screen and (max-width: 1024px) {
+  .gt-footer .gt-footer-content {
+    padding: 70px 0;
+  }
+
+  .kayak {
+    bottom: -40px;
+  }
+}
+
+/* Footer espace vide tablette */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .gt-footer .vc_empty_space {
+    height: 30px !important;
+  }
+}
+
+/* woocommerce page shop mobile */
+
+@media (max-width: 768px) {
+  body.et-db #et-boc .et-l .et_pb_shop ul.products.columns-1 li.product,
+  body.et-db #et-boc .et-l .et_pb_shop ul.products.columns-2 li.product,
+  body.et-db #et-boc .et-l .et_pb_shop ul.products.columns-3 li.product,
+  body.et-db #et-boc .et-l .et_pb_shop ul.products.columns-4 li.product,
+  body.et-db #et-boc .et-l .et_pb_shop ul.products.columns-5 li.product,
+  body.et-db #et-boc .et-l .et_pb_shop ul.products.columns-6 li.product,
+  body.et-db
+    #et-boc
+    .et-l
+    .et_pb_wc_related_products
+    ul.products.columns-1
+    li.product,
+  body.et-db
+    #et-boc
+    .et-l
+    .et_pb_wc_related_products
+    ul.products.columns-2
+    li.product,
+  body.et-db
+    #et-boc
+    .et-l
+    .et_pb_wc_related_products
+    ul.products.columns-3
+    li.product,
+  body.et-db
+    #et-boc
+    .et-l
+    .et_pb_wc_related_products
+    ul.products.columns-4
+    li.product,
+  body.et-db
+    #et-boc
+    .et-l
+    .et_pb_wc_related_products
+    ul.products.columns-5
+    li.product,
+  body.et-db
+    #et-boc
+    .et-l
+    .et_pb_wc_related_products
+    ul.products.columns-6
+    li.product,
+  body.et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-1 li.product,
+  body.et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-2 li.product,
+  body.et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-3 li.product,
+  body.et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-4 li.product,
+  body.et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-5 li.product,
+  body.et-db #et-boc .et-l .et_pb_wc_upsells ul.products.columns-6 li.product {
+    width: 100% !important;
+    margin-right: 0% !important;
+  }
+}
+@media all and (max-width: 768px) {
+  .woocommerce-page ul.products li.product:nth-child(n) {
+    margin: 0 0 11.5% !important;
+    width: 100% !important;
+  }
+}
